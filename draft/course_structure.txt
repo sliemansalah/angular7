@@ -1,4 +1,4 @@
-1 - Getting Started ().
+1 - Getting Started (done).
 2 - The Basics ().
 3- Componenet & Databinding ().
 4- Directives ().
