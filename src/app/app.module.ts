@@ -13,5 +13,3 @@ import { AppComponent } from './app.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-
-//npm i --save bootstrap@3
