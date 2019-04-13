@@ -1,14 +1,14 @@
 1 - Getting Started ().
 2 - The Basics ().
-3- Componenet & Databinding.
-4- Directives
-5- Forms.
-6- Observables.
-7- Routing.
-8- Services & Dependecy Injection.
-9- Pipes.
-10- Http.
-11- Authentication.
-12- Optamizations & NgModules.
-13- Deployment.
-14- Animations & Testing.
+3- Componenet & Databinding ().
+4- Directives ().
+5- Forms ().
+6- Observables ().
+7- Routing ().
+8- Services & Dependecy Injection ().
+9- Pipes ().
+10- Http ().
+11- Authentication ().
+12- Optamizations & NgModules ().
+13- Deployment ().
+14- Animations & Testing ().
