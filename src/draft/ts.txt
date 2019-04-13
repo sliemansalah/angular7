@@ -1,0 +1,2 @@
+Type Script was has more features than javascript e.g types,classes,interfaces.
+TS Compiled to JS
