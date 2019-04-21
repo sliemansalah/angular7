@@ -1,0 +1,11 @@
+Databinding = Communication between 
+TypeScript Code(Business Login) - Template(HTML)
+
+outputData->
+String interpolation {{data}}
+Property Binding [property]="data"
+
+<-react to (user) Events
+Event Binding (event)="expression"
+Combination of Both:Two-Way-Binding [(ngModel)]="data"
+
