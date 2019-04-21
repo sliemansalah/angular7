@@ -6,10 +6,14 @@ templateUrl:'./server.component.html',
 styleUrls:['./server.component.scss'],
 })
 export class ServerComponent{
-serverId:number=10;
-serverStatus:string='offline';
+allowNewServer=false;
 
-getServerStatus(){
-    return this.serverStatus;
+constructor(){
+setTimeout(() => {
+    this.allowNewServer=true;
+}, 2000);
+}
+ngOnInit(){
+
 }
 }
