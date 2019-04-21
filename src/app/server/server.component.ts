@@ -6,17 +6,22 @@ templateUrl:'./server.component.html',
 styleUrls:['./server.component.scss'],
 })
 export class ServerComponent{
-allowNewServer=false;
-serverCreationStatus='No server was created!'
-constructor(){
+allowNewServer = false;
+serverCreationStatus = 'No server was created!';
+serverName = '';
+constructor() {
 setTimeout(() => {
-    this.allowNewServer=true;
+    this.allowNewServer = true;
 }, 2000);
 }
-ngOnInit(){
+ngOnInit() {
 
 }
-onCreateServer(){
-    this.serverCreationStatus='Server was created';
+onCreateServer() {
+    this.serverCreationStatus = 'Server was created';
+}
+onUpdateServerName(event:any) {
+// console.log(event);
+    this.serverName = (<HTMLInputElement>event.target).value;
 }
 }
