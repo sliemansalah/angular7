@@ -7,7 +7,7 @@ styleUrls:['./server.component.scss'],
 })
 export class ServerComponent{
 allowNewServer=false;
-
+serverCreationStatus='No server was created!'
 constructor(){
 setTimeout(() => {
     this.allowNewServer=true;
@@ -15,5 +15,8 @@ setTimeout(() => {
 }
 ngOnInit(){
 
+}
+onCreateServer(){
+    this.serverCreationStatus='Server was created';
 }
 }
