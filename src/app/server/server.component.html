@@ -1,10 +1,7 @@
 <button
-class="btn btn-success"
-(click)="displayDetails()">Display Details</button>
-<p *ngIf="display">Secret Password=true</p>
-
-<div *ngFor="let item of button_clicks"
- [ngStyle]="{'backgroundColor':'blue'}"
- [ngClass]="'white_clr_mr5'">
-{{item}}
-</div>
+class="btn btn-primary"
+(click)="onToggleDetails()">Display Details</button>
+<p *ngIf="showSecret">Secret Password=true</p>
+<div *ngFor="let logItem of log"
+[ngStyle]="{backgroundColor: logItem>=5?'blue':'transparent'}"
+[ngClass]="{'white-text':logItem>=5}">{{logItem}}</div>

@@ -8,11 +8,11 @@ import { Component } from '@angular/core';
 export class ServerComponent {
     constructor() { 
     }
-    button_clicks=[];
-    display:boolean=false;
+    log=[];
+    showSecret:boolean=false;
     ngOnInit() { }
-    displayDetails(){
-        this.button_clicks.push(this.button_clicks.length+5);
-        this.display=!this.display;
+    onToggleDetails(){
+        this.showSecret=!this.showSecret;
+        this.log.push(this.log.length+1);
     }
 }
