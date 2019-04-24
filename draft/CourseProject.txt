@@ -1,0 +1,11 @@
+Planning the App
+
+Root
+Header
+Shopping List         -> Recipe Book
+Shopping List Edit    -> Recipe List
+Ingredient            -> Recipe Detail
+                      -> Recipe
+
+Model->Componenet->Feature
+
