@@ -6,20 +6,16 @@ import { Component } from '@angular/core';
     styleUrls: ['./server.component.scss'],
 })
 export class ServerComponent {
-    allowNewServer = false;
-    serverCreationStatus = 'No server was created!';
-    serverName = '';
-
-    constructor() { }
-
-    ngOnInit() { }
-
-    onCreateServer() {
-        this.serverCreationStatus = 'Server was created! Name is ' + this.serverName;
+  serverId:number=10;
+  serverStatus:string='offline';
+    constructor() { 
+        this.serverStatus=Math.random() > 0.5?'online':'offline';
     }
-    onUpdateServerName(event: any) {
-        this.serverName = (<HTMLInputElement>event.target).value;
-        this.serverName.length > 0 ? this.allowNewServer = true : this.allowNewServer = false;
-        
+    ngOnInit() { }
+    getServerStatus(){
+        return this.serverStatus;
+    }
+    getColor(){
+        return this.serverStatus==='online'?'green':'red';
     }
 }
