@@ -1,0 +1,11 @@
+What are Directives?
+
+Directives are Instructions in  the DOM!
+<p appTurnGreen>Recives a green background</p>
+
+@Directive({
+    selector:'[appTurnGreen]'
+})
+export class TurnGreenDirective{
+    
+}
