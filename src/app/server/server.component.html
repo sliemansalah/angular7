@@ -1,3 +1,10 @@
-<p [ngStyle]="{backgroundColor:getColor()}"
-[ngClass]="{online: serverStatus==='online'}"
->{{'Server'}} with ID {{serverId}} is {{ getServerStatus() }}</p>
+<button
+class="btn btn-success"
+(click)="displayDetails()">Display Details</button>
+<p *ngIf="display">Secret Password=true</p>
+
+<div *ngFor="let item of button_clicks"
+ [ngStyle]="{'backgroundColor':'blue'}"
+ [ngClass]="'white_clr_mr5'">
+{{item}}
+</div>
