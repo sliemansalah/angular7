@@ -4,3 +4,16 @@
 #row
 h3
 button.btn.btn-primary
+div.container>div.row>div.col-xs-12>ol>li
+label+input+p
+ol>li+li+li
+div.container>div.row>div.col-xs-12>ol>li+li+li
+div.container>div.row>div.col-xs-12>ol>li*3
+div>ul.short>li*5{*}
+ul>li*3>span.hello
+ul>li*3>span.hello$
+div#segment>p.emphasized*3 
+input.from-control
+button.btn.btn-primary
+
+
