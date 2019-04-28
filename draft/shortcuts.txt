@@ -20,3 +20,5 @@ div.container>div.row>div.col-md-12>h2{I'm working}
 
 div.row>div.col-md-5+div.col-md-7
 div.row>.col-xs-10
+
+nav.navbar.navbar-default>.container-fluid>.navbar-header>a
