@@ -22,3 +22,6 @@ div.row>div.col-md-5+div.col-md-7
 div.row>.col-xs-10
 
 nav.navbar.navbar-default>.container-fluid>.navbar-header>a
+.collapse.navbar-collapse
+ul.nav.navbar-nav>(li>a)*2
+ul.nav.navbar-nav.navbar-right>li.dropdown>ul.dropdown-menu>(li>a)*2
